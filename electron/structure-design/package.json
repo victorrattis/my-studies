@@ -1,0 +1,14 @@
+{
+  "name": "structure-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "npm run start --prefix desktop",
+    "start-desktop": "npm run build-ui && npm run start",
+    "build-ui": "npm run build --prefix ui-app --out=../desktop/dist"
+  },
+  "keywords": [],
+  "author": "vhra",
+  "license": "ISC"
+}

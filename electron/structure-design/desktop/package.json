@@ -1,0 +1,21 @@
+{
+  "name": "structure-design-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "npm run build && electron $npm_package_main",
+    "build": "webpack --config ./webpack.config.js",
+    "app": "electron $npm_package_main"
+  },
+  "keywords": [],
+  "author": "vhra",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.3"
+  }
+}
