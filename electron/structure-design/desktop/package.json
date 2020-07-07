@@ -12,7 +12,7 @@
   "author": "vhra",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^8.2.0",
+    "electron": "^8.2.4",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "html-loader": "^1.0.0",
